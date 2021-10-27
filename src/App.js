@@ -42,9 +42,9 @@ class BooksApp extends React.Component {
               <h1>MyReads</h1>
             </div>
             <div className="list-books-content">
-              <Bookshelf />
-              <Bookshelf />
-              <Bookshelf />
+              <Bookshelf title="Want to Read" />
+              <Bookshelf title="Reading" />
+              <Bookshelf title="Read" />
             </div>
 
             <div className="open-search">
